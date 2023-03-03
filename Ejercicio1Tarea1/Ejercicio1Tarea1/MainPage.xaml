@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1Tarea1.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="txtn1" Placeholder="Ingrese su nombre " BackgroundColor="White" TextColor="Black" FontSize="20"></Entry>
+
+        <Entry x:Name="txtn2" Placeholder="Ingrese su apellido " BackgroundColor="White" TextColor="Black" FontSize="20"></Entry>
+
+        <Entry x:Name="txtn3" Placeholder="Ingrese su edad " BackgroundColor="White" TextColor="Black" FontSize="20"></Entry>
+
+        <Entry x:Name="txtn4" Placeholder="Ingrese su correo " BackgroundColor="White" TextColor="Black" FontSize="20"></Entry>
+
+        <Button x:Name="btnenviar" Text=" Enviar informacion " Clicked="btnenviar_Clicked" BackgroundColor="Blue" TextColor="White" FontSize="20"></Button>
+        
+    </StackLayout>
+
+</ContentPage>
